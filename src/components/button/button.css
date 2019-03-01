@@ -1,0 +1,20 @@
+.button {
+  outline: none;
+  border: 1px solid #e0e0e0;
+  color: #008ed6;
+  padding: 14px 40px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.button:hover {
+  background: #008ed6;
+  border: 1px solid #008ed6;
+  color: #fff;
+}
+.button-blue {
+  color: #fff;
+  background-color: #008ed6;
+}

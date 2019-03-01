@@ -1,0 +1,16 @@
+@import "components/button/button.css";
+@import "components/plan/plan.css";
+
+body {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
+  color: #999;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

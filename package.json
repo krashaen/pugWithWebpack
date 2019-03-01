@@ -1,0 +1,29 @@
+{
+  "name": "component",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=development",
+    "start:dev": "webpack-dev-server --mode=development",
+    "dev": "webpack --watch --mode development",
+    "prod": "webpack --mode production"
+  },
+  "author": "mikhail krasheninnikov",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-loader": "^0.5.5",
+    "pug-html-loader": "^1.1.5",
+    "style-loader": "^0.23.1"
+  }
+}
